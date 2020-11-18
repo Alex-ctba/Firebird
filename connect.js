@@ -2,7 +2,7 @@ var Firebird = require('node-firebird');
 var options = {};
 
 const connect_fire = function(){
-options.host = '127.0.0.1';
+options.host = 'localhost';
 options.port = 3050;
 options.database = 'EMPLOYEE.fdb';
 options.user = 'SYSDBA';
